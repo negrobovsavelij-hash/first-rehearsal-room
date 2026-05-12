@@ -1,3 +1,13 @@
-Tect 1
-tortuk 
-sas
+if __name__ == "__main__":
+    print("--- КАЛЬКУЛЯТОР МАТРИЦ ---")
+    
+    
+    A = input_matrix("A")  # Было input_matrix("B")
+    B = input_matrix("B")  # Было input_matrix("A")
+    
+    print("\nМатрица A:")
+    print_matrix(A)
+    print("Матрица B:")
+    print_matrix(B)
+    
+    # ... остальной код ...
